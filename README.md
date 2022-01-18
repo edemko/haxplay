@@ -4,9 +4,14 @@ Music library on the commandline and filesystem.
 
 ## Install
 
+For just the player, put the executable on your path:
+
 ```
-ln -s <this repo>/src/play.py ~/bin/haxplay
+wget https://raw.githubusercontent.com/edemko/haxplay/master/src/play.py -O ~/bin/haxplay
 ```
+
+For the other utilities, I recommend cloning the repository.
+They are slap-dash, and you may need to edit the logic to your taste.
 
 ## Player
 
